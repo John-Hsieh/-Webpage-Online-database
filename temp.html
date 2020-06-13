@@ -1,0 +1,75 @@
+
+<!DOCTYPE html> 
+<html  lang="zh-cn">
+<head>  
+  <meta charset="utf-8" >  
+    <title>在线私密数据管理系统</title>  
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<script type="text/javascript">
+		function submit1(){
+  			var name = document.getElementById("u").value;
+			var password = document.getElementById("p").value;
+			var name1 = document.getElementById("inputname");
+			var password1 = document.getElementById("inputpw");
+			if(name==""){ 
+				name1.innerHTML="请输入姓名!";
+			}else{
+				name1.innerHTML="";
+			}
+			if(password==""){
+				password1.innerHTML="请输入密码!";
+			}else{
+				password1.innerHTML="";
+			}  
+			//alert("test word");
+			setTimeout(setView,500);
+			document.frm1.submit();
+			
+			//setTimeout(setView,1000);
+		}
+		
+		function setView(){
+/* 			var name = document.getElementById("u").value;
+			var name1 = document.getElementById("inputname");
+			if(name==""){ 
+				name1.innerHTML="请输入姓名!";
+			}else{
+				name1.innerHTML="";
+			}
+			
+			var password = document.getElementById("p").value;
+			var password1 = document.getElementById("inputpw");
+			if(password==""){
+				password1.innerHTML="请输入密码!";
+			}else{
+				password1.innerHTML="";
+			}  
+			
+			var view = document.getElementById("subview");
+			view.innerHTML="<%=msg%>";
+		}
+	</script>	
+</head>  
+<body>  
+    <div id="login">  
+        <h1>私密数据管理系统</h1>  
+         <form name="frm1" method="post" action="main.jsp"> 
+			<span id="inputname" style="color:red;font-weight:bold"></span>	
+			
+            <input type="text"  placeholder="Username" required="required" id="u" name="user" value="<%=username%>"></input>  
+             
+			<span id = "inputpw" style="color:red;font-weight:bold"></span>
+			
+            <input type="password"  placeholder="Password" required="required" id="p" name="pass" value="<%=password%>"></input> 
+             
+            <span id = "subview" style="color:red;font-weight:bold"><%=msg %></span>
+             
+			<div id="subber"><input  class="but" type="submit"  value="Login"/></div>
+	    <div id="cell">
+	    <button class="but2" onclick="location.href='Register.jsp'" type="button">Register</button>
+	    <button class="but3" onclick="location.href='findPwd.jsp'" type="button">Find Pwd</button> 
+	    </div> 
+        </form> 	
+    </div>  
+</body>  
+</html>  

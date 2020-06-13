@@ -1,0 +1,130 @@
+html{   
+    width: 100%;   
+    height: 100%;   
+    overflow: hidden;   
+    font-style: sans-serif;   
+}   
+p{
+    width:80px;
+    height:18px;
+}
+
+#clipboard
+{
+    width:100%;
+    align:middle;
+    posotion:absolute;
+    left:200px;
+}
+#register div
+{
+    width:100%;
+    align:middle;
+    padding: 0px 200px 0px 100px;
+    margin: 50px 50px 50px 20px; 
+}
+body{   
+    width: 100%;   
+    height: 100%;   
+    font-family: 'Open Sans',sans-serif;   
+    margin: 0;   
+    background-color:#97CBFF;
+}   
+        #header {
+            width: 100%;
+            height: 12%;
+	    z-index:1000;
+	    top:0px;
+	    background-color:#006633;
+            margin: 0px auto;
+            position: absolute;
+            padding: 0px;
+        }
+        #footer {
+            width: 100%;
+            height: 4%;
+	    align: bottom;
+	    top:96.5%;
+	    z-index:10;
+	    background-color:#006633;
+            margin: 0px auto;
+            position: absolute;
+            padding: 0px;
+        }
+#titlePage{   
+    position: absolute;   
+    width: 43.8%;   
+    height: 16.8%;
+border-radius: 12px;
+    top:12.7%;
+    left:28%;
+    align:center;   
+    border-style: double;
+    background-color: #fff;
+}  
+#titlePage h1{   
+    font-family:свт╡;
+    font-size:14px;
+}  
+#register{   
+    position: absolute;   
+    width: 43.8%;   
+    height: 66%; 
+    top:30%;
+    left:28%; 
+border-radius: 12px;
+    align:center;
+    border-style: double;
+    background-color: #fff;
+}   
+#register h1{   
+    color: #000000;   
+    text-shadow:0 0 10px;   
+    letter-spacing: 1px;   
+    text-align: center; 
+    margin-top: 45px;
+}   
+h1{   
+    font-size: 2em;   
+    margin: 0.67em 0;   
+}   
+input{   
+    width: 278px;   
+    height: 18px;   
+    margin-bottom: 10px;   
+    outline: none;   
+    padding: 10px;   
+    font-size: 13px;   
+    color: #000;  
+    text-shadow:1px 1px 1px;   
+    border-top: 1px solid #312E3D;   
+    border-left: 1px solid #312E3D;   
+    border-right: 1px solid #312E3D;   
+    border-bottom: 1px solid #56536A;   
+    border-radius: 4px;   
+    background-color: #fff;   
+}   
+.but{   
+    width: 300px;   
+    height: 40px;   
+    display: block;   
+    background-color: #4a77d4;   
+    border: 1px solid #3762bc;   
+    color: #fff;   
+    padding:60px;   
+    font-size: 15px;     
+    border-radius: 5px;   
+    margin-left:33%;
+    margin-bottom: 10px;
+    align:bottom; 
+}  
+
+.section
+{
+    width:800px;
+    height:100px;
+    vertical-align:middle;
+    padding-left:100px;
+    display: inline;
+    float:left;
+}
